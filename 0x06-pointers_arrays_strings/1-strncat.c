@@ -5,9 +5,9 @@
  * @dest: char dest
  * @src: char src
  * @n: length int
+ *
  * Retrun: char
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	int dlen = 0, j = 0;
