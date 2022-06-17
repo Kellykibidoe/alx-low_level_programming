@@ -8,7 +8,7 @@
 int main(void)
 {
 	char s1[98] = "Hello ";
-	char se[] = "World!\n";
+	char s[] = "World!\n";
 	char *ptr;
 
 	printf("%s\n", s1);
