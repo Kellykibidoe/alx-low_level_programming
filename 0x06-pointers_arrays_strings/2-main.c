@@ -3,6 +3,7 @@
 
 /**
  * main - check the code
+ *
  * Return: Always 0.
  */
 
@@ -35,6 +36,7 @@ int main(void)
 			printf("\n");
 		}
 		printf("0x%02x", s1[i]);
+
 	}
 	printf("\n");
 	return (0);
