@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - this is a function to print its name
- * @argc: argc parameter
- * @argv: an array of a command listed
- * Return nothing
- */
+* main - rhis is a function that prints its name
+* @argc: parameter
+* @argv: an array of a command listed
+* Return nothing
+*/
 
-int main(int argc, char *argv[])
+int manin(int argc, char *argv[])
 {
-	printf("%s\n", *argv;
+	printf("%s\n", *-argv);
 	return (0);
 }
