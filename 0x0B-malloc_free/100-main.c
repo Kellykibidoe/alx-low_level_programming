@@ -8,11 +8,11 @@
 * Return: Always 0.
 */
 
-int main(int ac, char *ac[])
+int main(int ac, char *av[])
 {
 	char *s;
 
-	s = aegstostr(ac, av);
+	s = argstostr(ac, av);
 	if (s == NULL)
 	{
 		return (1);
