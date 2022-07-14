@@ -5,8 +5,8 @@
 /**
 * print_grid - prints a grid of integers
 * @grid: the address of the two dimensional grid
-* @width: width of the grid
 * @heigth: heigth of the grid
+* @width: with of the grid
 * Return: Nothing.
 */
 
@@ -19,7 +19,7 @@ void print_grid(int **grid, int width, int heigth)
 	while (h < heigth)
 	{
 		w = 0;
-		while (w < heigth)
+		while (w < width)
 		{
 			printf("%d", grid[h][w]);
 			w++;
