@@ -3,23 +3,26 @@
 
 /**
 * create_array - creates an array of chars.
-* @size: size of the array.
-* @c: char for storage.
+* @size: input size of the array.
+* @c: input char for storage.
 * Return: pointer of an array of chars.
 */
 
 char *create_array(unsigned int size, char c)
 {
-	char *cr;
+	char *ar;
 	unsigned int i;
 
 	if (size == 0)
 		return (NULL);
 
-	cr = malloc(sizeof(c) * size);
-	if (cr == NULL)
+	ar = malloc(sizeof(c) * size);
+
+	if (ar == NULL)
 		return (NULL);
+
 	for (i = 0; i < size; i++)
-		cr[i] = c;
-	return (cr);
+		ar[i] = c;
+
+	return (ar);
 }
